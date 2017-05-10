@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 import os
 os.environ['TF_CPP_MIN_LOG_LEVEL']='2'
-import numpy as np
+#import numpy as np
 import tensorflow as tf
 
 W=tf.Variable([.3], tf.float32)
